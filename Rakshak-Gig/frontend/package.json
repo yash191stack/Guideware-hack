@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"npm run dev --prefix Rakshak-Gig/backend\"",
+    "dev": "concurrently \"vite\" \"npm run dev --prefix ../backend\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
